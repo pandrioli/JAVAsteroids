@@ -17,7 +17,7 @@ public abstract class Logo {
         Integer size = tamaño.getY().intValue()/6;
         Font font = new Font("Sans Serif", Font.BOLD, size);
         FontMetrics fm = g.getFontMetrics(font);
-        String texto = "JA   Asteroids";
+        String texto = "JAVAsteroids";
         Integer ancho = fm.stringWidth(texto);
         Integer x = tamaño.getX().intValue()/2-ancho/2;
         Integer y = tamaño.getY().intValue()/4+size/8;
@@ -25,13 +25,13 @@ public abstract class Logo {
         g.drawString(texto,x ,y);
         font = new Font("Sans Serif", Font.BOLD, size/5);
         fm = g.getFontMetrics(font);
-        texto = "Version Alpha 1.0.0 / 2017 - andriGames        ESC: Salir";
+        texto = "DEMO / 2017 - Pablo Andrioli            ESC: Salir";
         ancho = fm.stringWidth(texto);
         x = tamaño.getX().intValue()/2-ancho/2;
         g.setFont(font);
         g.drawString(texto, x, tamaño.getY().intValue()-50);
 
-
+/*
 
         x = tamaño.getX().intValue()/2+(int)(size*1.59);
         y-= (int)(size*.26);
@@ -145,7 +145,7 @@ public abstract class Logo {
             g.drawLine(x1.intValue(),y1.intValue(),x2.intValue(),y2.intValue());
             x1 = x2;
             y1 = y2;
-        }
+        }*/
 
     }
 }
