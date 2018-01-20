@@ -1,13 +1,12 @@
-JAVAsteroids DEMO
+JAVAsteroids DEMO - por Pablo Andrioli
 
-por Pablo Andrioli
-
-Desarrollado como ejercitación independiente durante el aprendizaje de JAVA del curso de desarrollo Android de Digital House - Abril 2017
+Desarrollado como ejercitaciÃ³n independiente durante el aprendizaje de JAVA/POO 
+del curso de desarrollo Android de Digital House - Abril 2017
 
 El demo consta de 7 niveles terminados 100% funcionales
 
 El objetivo es destruir todos los asteroides y enemigos
-El daño al escudo es proporcional a la velocidad de impacto y tamaño del asteroide.
+El daÃ±o al escudo es proporcional a la velocidad de impacto y tamaÃ±o del asteroide.
 
 POWER-UPs que aparecen durante el juego:
 L: Laser
